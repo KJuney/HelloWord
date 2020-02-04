@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.esjob</groupId>
+  <artifactId>item_esjob</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+<dependency>
+    <groupId>commons-net</groupId>
+    <artifactId>commons-net</artifactId>
+    <version>3.6</version>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
+	<dependency>
+	    <groupId>com.jcraft</groupId>
+	    <artifactId>jsch</artifactId>
+	    <version>0.1.55</version>
+	</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+	<dependency>
+	    <groupId>com.alibaba</groupId>
+	    <artifactId>fastjson</artifactId>
+	    <version>1.2.62</version>
+	</dependency>
+  
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context</artifactId>
+	    <version>5.2.3.RELEASE</version>
+	</dependency>
+	
+   <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-core</artifactId>
+	    <version>5.2.3.RELEASE</version>
+	</dependency>
+	
+	  <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-beans</artifactId>
+	    <version>5.2.3.RELEASE</version>
+	</dependency>
+  
+  	<!-- https://mvnrepository.com/artifact/com.dangdang/elastic-job-lite-core -->
+	<dependency>
+	    <groupId>com.dangdang</groupId>
+	    <artifactId>elastic-job-lite-core</artifactId>
+	    <version>2.1.5</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.dangdang/elastic-job-lite-spring -->
+	<dependency>
+	    <groupId>com.dangdang</groupId>
+	    <artifactId>elastic-job-lite-spring</artifactId>
+	    <version>2.1.5</version>
+	</dependency>
+
+  </dependencies>
+  
+</project>
